@@ -7,10 +7,9 @@
 
 # Git
 
-<code>
-$ git config --global user.name "Gregg Pollack"
+<code>$ git config --global user.name "Gregg Pollack"</code>
 
-$ git config --global user.email gregg@codeschool.com
+<code></code>$ git config --global user.email gregg@codeschool.com</code>
 
 $ git config --global color.ui true
 </code>
@@ -116,3 +115,6 @@ $ git reset --hard HEAD^
 $ git commit --amend -m "New Message"
 
 $ git reset --hard HEAD^^
+
+## CLONNING & BRANCHING
+
