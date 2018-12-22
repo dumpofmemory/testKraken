@@ -27,3 +27,15 @@ $ git config --global color.ui true
 ## SKIP STAGING AND COMMIT
 
 git commit -a -m "Modify readme" Add changes from all tracked files. Doesn’t add new (untracked) files
+
+## UNDOING A COMMIT
+
+Whoops, we forgot something on that commit.
+
+git reset --soft HEAD^  
+
+--soft means Reset into staging
+
+HEAD^ means Move to commit before "HEAD"
+
+Now I can make changes, and re-commit
