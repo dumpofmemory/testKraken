@@ -19,4 +19,6 @@ $ git config --global color.ui true
 - **git commit -m "Create a README."**
 - **git log**
 - "git checkout -- <filename>..." to discard changes in working directory
+- **diff** show unstaged differences since last commit
+- **git diff --staged**
 - 
