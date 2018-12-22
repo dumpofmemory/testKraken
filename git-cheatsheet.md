@@ -21,4 +21,4 @@ $ git config --global color.ui true
 - "git checkout -- <filename>..." to discard changes in working directory
 - **diff** show unstaged differences since last commit
 - **git diff --staged**
-- 
+- **git reset HEAD LICENSE** refers to last commit and will unstage it
