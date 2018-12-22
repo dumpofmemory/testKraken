@@ -19,6 +19,11 @@ $ git config --global color.ui true
 - **git commit -m "Create a README."**
 - **git log**
 - "git checkout -- <filename>..." to discard changes in working directory
-- **diff** show unstaged differences since last commit
+- **git diff** show unstaged differences since last commit
 - **git diff --staged**
 - **git reset HEAD LICENSE** refers to last commit and will unstage it
+- **git checkout -- LICENSE** blow away all changes since last commit
+
+## SKIP STAGING AND COMMIT
+
+git commit -a -m "Modify readme" Add changes from all tracked files. Doesn’t add new (untracked) files
