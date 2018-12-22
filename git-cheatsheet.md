@@ -75,7 +75,7 @@ $ git reset --hard HEAD^^ Undo last 2 commits and all changes
 
 ## ADDING A REMOTE
 
-<code>git remote add origin https:// ... .git</code>
+<code>git remote add origin https://github.com/Gregg/git-real.git</code>
 
 **add** - new remote
 
